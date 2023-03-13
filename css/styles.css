@@ -58,7 +58,7 @@ main {
     justify-items: center;
 }
 
-#titles {
+.titles {
 /*    do when done fonts*/
 }
 
@@ -106,19 +106,38 @@ div.contact-element {
     align-items: flex-start;
 }
 
-h3 {
+#portfolio-title {
+    margin-left: 5rem;
+}
 
+#portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h3 {
+/*    do some stuff*/
 }
 
 div.projects {
-
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #E7AC16;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5rem solid #3D7FFF;
 }
 
 div.project-image {
+    width: 50vw;
 
 }
 
 div.project-text {
+    margin: 10vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
 
 }
 
