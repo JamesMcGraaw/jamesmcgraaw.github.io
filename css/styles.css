@@ -13,71 +13,85 @@ img {
 }
 
 header {
-    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:visited {
+    color: #FFFFFF;
+/*    maybe change this colour*/
 }
 
 .nav-bar {
-    
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #000000;
+    font-color: #FFFFFF;
 }
 
 hr {
-    
-}
-
-h1.main {
-
+    margin: 0.5rem auto;
+    width: 85vw;
 }
 
 .container {
-    
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr;
+    justify-items: center;
+}
+
+#main {
+
 }
 
 #main-image {
-    
+    width:;
 }
 
 #titles {
-    
+
 }
 
 article {
-    
+
 }
 
 #real-photo {
-    
+
 }
 
 footer {
-    
+
 }
 
 h2 {
-    
+
 }
 
 #contacts {
-    
+
 } 
 
 div.contact-element {
-    
+
 }
 
 h3 {
-    
+
 }
 
 div.projects {
-    
+
 }
 
 div.project-image {
-    
+
 }
 
 div.project-text {
-    
+
 }
 
 @media
