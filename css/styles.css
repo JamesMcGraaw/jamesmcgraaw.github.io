@@ -69,8 +69,8 @@ main {
 }
 
 .titles {
-    margin-left: 1rem;
-    margin-bottom: 0;
+    margin-left: 0;
+    margin-bottom: 1rem;
 }
 
 article {
