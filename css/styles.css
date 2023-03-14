@@ -70,46 +70,35 @@ main {
 }
 
 .titles {
-/*    do when done fonts*/
+        margin-bottom: 0;
 }
 
 article {
-    padding: 2rem;
-/*    do rest when done fonts*/
-}
-
-#real-photo {
-/*    might not need this*/
+    padding: 1rem;
 }
 
 footer {
     width: 90vw;
     margin: 0 auto;
+    margin-bottom: 1rem;
     background-color: #E7AC16;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 4rem 1fr;
+}
+
+h2 {
+    grid-column: 1 / 4;
 }
 
 #portfolio-title {
-    grid-column: 1 / 4;
     margin: 0.5rem;
     margin-left: 1rem;
 }
-/*
-
-#contacts {
-    padding: 0.5rem;
-    display: grid;*/
-
-} 
 
 .contact-element {
     width: 100%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 #email, #linked-in, #git-hub {
@@ -117,6 +106,7 @@ footer {
 }
 
 #email {
+    width: 85%;
     grid-column: 1 / 2;
 }
 
@@ -125,6 +115,7 @@ footer {
 }
 
 #git-hub {
+    width: 85%;
     grid-column: 3 / 4;
 }
 
@@ -132,10 +123,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
 }
-
-/*h3 {
-    do some stuff
-}*/
 
 .projects {
     width: 90vw;
