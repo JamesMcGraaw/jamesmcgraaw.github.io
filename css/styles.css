@@ -27,7 +27,7 @@ a:link, a:visited {
     margin: 0.5rem;
     padding: 1rem;
     background-color: #000000;
-    font-color: #FFFFFF;
+    color: #FFFFFF;
     border-radius: 2px;
 }
 
@@ -88,7 +88,7 @@ footer {
     column-gap: 2rem
 }
 
-h2 {
+#contact-me {
     padding-left: 1rem;
     grid-column: 1 / 4;
 }
@@ -143,7 +143,7 @@ h2 {
 }
 
 .project-text {
-    margin: 10vw;
+    margin: 5vw;
     margin-top: 2.5vw;
     margin-bottom: 2.5vw;
 }
