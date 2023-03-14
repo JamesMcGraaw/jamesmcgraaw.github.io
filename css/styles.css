@@ -9,6 +9,11 @@ body {
     font-family: 'Special Elite', cursive;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 header {
     display: flex;
     justify-content: space-evenly;
@@ -34,23 +39,29 @@ hr {
 }
 
 .container {
-    width: 90vw;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns:1fr;
     justify-items: center;
+    border: 1px solid red;
 }
 
 #main-title {
+    font-size: 1.5rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 /*    do something with this once we've done fonts*/
 }
 
 #main-image {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 /*    might not need this*/
 }
 
 main {
-    width: 85vw;
+    width: 90vw;
     margin: auto;
     background-color: #E7AC16;
     display: grid;
@@ -76,38 +87,45 @@ footer {
     margin: 0 auto;
     background-color: #E7AC16;
     display: grid;
-    grid-template-columns: 1fr;
-}
-
-h2 {
-    margin: 0.5rem;
-    margin-left: 1rem;
-/*    yadda yadda fonts*/
-}
-
-#contacts {
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-} 
-
-div.contact-element {
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-#linked-in {
-    align-items: flex-start;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
 }
 
 #portfolio-title {
-    margin-left: 5rem;
+    grid-column: 1 / 4;
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+/*
+
+#contacts {
+    padding: 0.5rem;
+    display: grid;*/
+
+} 
+
+.contact-element {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#email, #linked-in, #git-hub {
+    grid-row: 2 / 3;
+}
+
+#email {
+    grid-column: 1 / 2;
+}
+
+#linked-in {
+    grid-column: 2 / 3 ;
+}
+
+#git-hub {
+    grid-column: 3 / 4;
 }
 
 #portfolio {
@@ -115,11 +133,11 @@ div.contact-element {
     grid-template-columns: 1fr;
 }
 
-h3 {
-/*    do some stuff*/
-}
+/*h3 {
+    do some stuff
+}*/
 
-div.projects {
+.projects {
     width: 90vw;
     margin: 0 auto;
     background-color: #E7AC16;
@@ -129,12 +147,12 @@ div.projects {
     border: 0.5rem solid #3D7FFF;
 }
 
-div.project-image {
+.project-image {
     width: 50vw;
 
 }
 
-div.project-text {
+.project-text {
     margin: 10vw;
     margin-top: 2.5vw;
     margin-bottom: 2.5vw;
