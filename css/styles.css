@@ -5,7 +5,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #4b91f2;
+/*    background-color: #4b91f2;*/
+    background-image: radial-gradient(#2e4cf5, #4b91f2);
     font-family: 'Special Elite', cursive;
 }
 
@@ -38,7 +39,7 @@ header {
 }
 
 hr {
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     width: 85vw;
     border: 0.1rem solid #000000;
     border-radius: 5px;
@@ -71,10 +72,11 @@ hr {
 main {
     width: 90vw;
     margin: 1rem auto;
-    background-color: #E7AC16;
+    background-color: #E7AC16E6;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    box-shadow: 0 0 0.15rem 0.15rem #E7AC16E6;
 }
 
 .titles {
@@ -90,15 +92,33 @@ ul {
     padding-left: 1rem;
 }
 
+#real-photo {
+    position: relative;
+    display: inline-block
+}
+
+#real-photo .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#real-photo:hover .img-top {
+    display: inline;
+}
+
 footer {
     width: 90vw;
     margin: 0 auto;
     margin-bottom: 1rem;
-    background-color: #E7AC16;
+    background-color: #E7AC16E6;
     display: grid;
     grid-template-rows: 4rem 1fr;
     grid-template-columns: repeat(3, minmax(1rem, 5rem));
-    column-gap: 2rem
+    column-gap: 2rem;
+    box-shadow: 0 0 0.15rem 0.15rem #E7AC16E6;
 }
 
 #contact-me {
@@ -140,15 +160,17 @@ footer {
 
 #portfolio-title {
     margin: 0 auto;
-    background-color: #E7AC16;
+    background-color: #E7AC16E6;
+    box-shadow: 0 0 0.15rem 0.15rem #E7AC16E6;
 }
 
 .projects {
-    margin: 0 auto;
-    background-color: #E7AC16;
+    margin: 0.5rem 0.5rem;
+    background-color: #E7AC16E6;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 0 0.15rem 0.15rem #E7AC16E6;
 }
 
 .project-image {
