@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #3D7FFF;
+    background-color: #4b91f2;
     font-family: 'Special Elite', cursive;
 }
 
@@ -14,21 +14,27 @@ img {
     height: auto;
 }
 
+a:link, a:visited {
+    color: #FFFFFF;
+}
+
 header {
     display: flex;
     justify-content: space-evenly;
 }
 
-a:link, a:visited {
-    color: #FFFFFF;
-}
-
 .nav-bar {
     margin: 0.5rem;
-    padding: 1rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
     background-color: #000000;
     color: #FFFFFF;
     border-radius: 2px;
+    box-shadow: 0.25rem 0.25rem 0.75rem #82b4fa;
+}
+
+.nav-bar:hover {
+    background-color: #161617;
 }
 
 hr {
@@ -46,17 +52,20 @@ hr {
     justify-items: center;
 }
 
+#sub-title {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
 #main-title {
     font-size: 1.5rem;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-/*    do something with this once we've done fonts*/
 }
 
 #main-image {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
-/*    might not need this*/
+    grid-row: 3 / 4;
 }
 
 main {
@@ -75,6 +84,10 @@ main {
 
 article {
     padding: 1rem;
+}
+
+ul {
+    padding-left: 1rem;
 }
 
 footer {
@@ -126,7 +139,7 @@ footer {
 }
 
 #portfolio-title {
-    margin: 0;
+    margin: 0 auto;
     background-color: #E7AC16;
 }
 
