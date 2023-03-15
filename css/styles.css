@@ -1,12 +1,11 @@
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     padding: 0;
-/*    background-color: #4b91f2;*/
-    background-image: radial-gradient(#2e4cf5, #4b91f2);
+    background-image: radial-gradient(#2E4CF5, #4B91F2);
     font-family: 'Special Elite', cursive;
 }
 
@@ -31,7 +30,7 @@ header {
     background-color: #000000;
     color: #FFFFFF;
     border-radius: 2px;
-    box-shadow: 0.25rem 0.25rem 0.75rem #82b4fa;
+    box-shadow: 0.25rem 0.25rem 0.75rem #82B4FA;
 }
 
 .nav-bar:hover {
@@ -181,6 +180,18 @@ footer {
     margin: 5vw;
     margin-top: 2.5vw;
     margin-bottom: 2.5vw;
+}
+
+.project-links {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+a:link, a:visited.project-link {
+    color: #000000;
 }
 
 @media only screen and (min-width: 1000px) {
