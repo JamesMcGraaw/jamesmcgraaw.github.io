@@ -190,7 +190,7 @@ footer {
     justify-items: center;
 }
 
-a:link, a:visited.project-link {
+a:link.project-link, a:visited.project-link {
     color: #000000;
 }
 
