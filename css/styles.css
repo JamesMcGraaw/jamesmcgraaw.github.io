@@ -14,12 +14,8 @@ img {
     height: auto;
 }
 
-a:link.nav-bar {
+a:.nav-bar {
     color: #FFFFFF;
-}
-
-a:visited.nav-bar {
-        color: #FFFFFF;
 }
 
 header {
@@ -194,11 +190,7 @@ footer {
     justify-items: center;
 }
 
-a:link.project-link {
-    color: #000000;
-}
-
-a:visited.project-link {
+a.project-link {
     color: #000000;
 }
 
