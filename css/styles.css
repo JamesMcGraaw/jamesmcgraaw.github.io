@@ -14,11 +14,11 @@ img {
     height: auto;
 }
 
-.nav-bar > a:link {
+.nav, a:link {
     color: #FFFFFF;
 }
 
-.nav-bar > a:visited {
+.nav, a:visited {
     color: #FFFFFF;
 }
 
