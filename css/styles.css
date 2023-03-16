@@ -14,7 +14,7 @@ img {
     height: auto;
 }
 
-a:link, a:visited {
+a:link.nav-bar, a:visited.nav-bar {
     color: #FFFFFF;
 }
 
