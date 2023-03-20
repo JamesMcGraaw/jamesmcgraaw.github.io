@@ -11,6 +11,6 @@ A Portfolio section/page containing:
 An image (screenshot), title and description of each project.
 A link to the live version and a link to the GitHub repo of the project.
 A Contact section/page.
-The page(s) of your website should be responsive.
+The page(s) of your website should be responsive."
 
 The project was completed and reviewed by peers and trainers before being presented at the Sprint Review.
